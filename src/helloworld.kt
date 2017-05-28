@@ -3,7 +3,17 @@
  */
 
 fun main(args: Array<String>) {
-    val str: String = "hello world"
-    println(str)
+    val anystr: String = "hello world"
+    println(anystr)
 
+    val anyint: Int = 764
+    println(anyint)
+
+    function_one()
+
+}
+
+
+fun function_one(){
+    println("out of main scope")
 }
