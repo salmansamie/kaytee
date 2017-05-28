@@ -1,3 +1,5 @@
+package variables
+
 /**
  * Created by sami on 28/05/2017.
  */
@@ -15,5 +17,5 @@ fun main(args: Array<String>) {
 
 
 fun function_one(){
-    println("out of main scope")
+    println("out of variables.main scope")
 }
